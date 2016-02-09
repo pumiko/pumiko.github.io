@@ -162,6 +162,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Sidebar content */
+.social-icons-left, .social-icons-right { text-align: center; float: none; }
+
+.social-icons { font-size: 1.25rem; padding: 0.5em 0 0 0; width: 100%; }
+
+.social-icons a.fa { cursor: pointer; opacity: 0.8; padding: 0.2em; }
+
+.social-icons a.fa:hover { opacity: 1; }
+
+.social-icons iframe[title=Flattr] { position: relative; top: 0.1em; }
+
+
 .sidebar a {
   font-weight: normal;
   color: #fff;
@@ -171,12 +182,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .sidebar-item p:last-child {
   margin-bottom: 0;
-}
-
-.social-links {
-  font-size: 5rem;
-  text-align: center;
-  letter-spacing: 10;
 }
 
 /* Sidebar nav */
@@ -208,7 +213,7 @@ a.sidebar-nav-item:focus {
 
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
 .sidebar-checkbox {
-  display: none;
+  display: none;s
 }
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
@@ -294,6 +299,11 @@ a.sidebar-nav-item:focus {
           transform: translateX(14rem);
 }
 
+.social-links {
+  font-size: .75rem;
+  text-align: center;
+  letter-spacing: 10;
+}
 
 /*
  * Posts and pages

@@ -18,3 +18,17 @@ skype_username:
 steam_nickname:
 google_plus_id:
 linkedin_username:
+
+text       :
+  post       :
+    minute_read: 'min czytania'
+  contact    :
+    email      : 'e-mail'
+    content    : 'Treść'
+    subject    : 'Wiadomość z bloga!'
+    submit     : 'Wyślij'
+    ajax       :
+      sending    : 'Wysyłam...'
+      sent       : 'Wysłano!'
+      error      : 'Błąd!'
+  thanks     : 'Dziękuję za kontakt!'

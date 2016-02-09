@@ -7,6 +7,8 @@ tagline: A log of everyday life
 description: My awesome new site
 paginate: 5
 
+show_social_icons:    true
+
 # Social icons
 github_username: pumiko
 bitbucket_username:

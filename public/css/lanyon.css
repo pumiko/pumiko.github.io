@@ -162,9 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Sidebar content */
-.social-icons-left, .social-icons-right { text-align: center; float: none; }
-
-.social-icons { font-size: 1.25rem; padding: 0.5em 0 0 0; width: 100%; }
+.social-icons { text-align: center; float: none; font-size: 1.25rem; padding: 0.5em 0 0 0; width: 100%; }
 
 .social-icons a.fa { cursor: pointer; opacity: 0.8; padding: 0.2em; }
 

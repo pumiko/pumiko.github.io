@@ -9,7 +9,9 @@ paginate: 5
 email:  stec.magda@gmail.com
 author: Pumiko
 
-show_social_icons:    true
+show_social_icons: true
+show_sharing_icons: true
+disqus_shortname: pumiko
 
 # Social icons
 github_username: pumiko

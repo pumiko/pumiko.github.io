@@ -373,6 +373,12 @@ textarea { box-sizing: border-box; line-height: 1.75; padding: 0.5rem 0.5rem; }
 
 .field-light { background-color: white; transition: box-shadow .2s ease; border-style: solid; border-width: 1px; border-color: #ccc; border-radius: 3px; }
 
+button, .button { font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif; font-size: inherit; font-weight: normal; text-decoration: none; cursor: pointer; display: inline-block; box-sizing: border-box; line-height: 1.125rem; padding: 0.5rem 1rem; margin: 0; height: auto; border: 1px solid transparent; vertical-align: middle; -webkit-appearance: none; }
+
+::-moz-focus-inner { border: 0; padding: 0; }
+
+.button:hover { text-decoration: none; }
+
 button, .button { text-shadow: none; background-image: none; }
 
 .button:hover, .button:focus, .button:active { color: white; text-shadow: none; background-image: none; }

@@ -23,6 +23,17 @@ steam_nickname:
 google_plus_id:
 linkedin_username:
 
+# Change to 'true' to enable individual icons
+share_facebook: true
+share_twitter: true
+share_googleplus: true
+share_linkedin: true
+share_digg: false
+share_tumblr: false
+share_reddit: true
+share_stumbleupon: false
+share_hackernews: false
+
 text       :
   post       :
     minute_read: 'min czytania'

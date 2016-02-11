@@ -359,7 +359,7 @@ a.sidebar-nav-item:focus {
   color: inherit;
 }
 
-input, select, textarea, fieldset { font-size: 1rem; margin-top: 0; margin-bottom: 0.5rem; }
+input, select, textarea, fieldset { font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif; font-size: 1rem; margin-top: 0; margin-bottom: 0.5rem; }
 
 input[type=text], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=time], input[type=url], input[type=week] { box-sizing: border-box; height: 2.25rem; padding: 0.5rem 0.5rem; vertical-align: middle; -webkit-appearance: none; }
 

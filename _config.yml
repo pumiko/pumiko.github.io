@@ -38,7 +38,7 @@ text       :
   post       :
     minute_read: 'min czytania'
   contact    :
-    email      : 'e-mail'
+    email      : 'E-mail'
     content    : 'Treść'
     subject    : 'Wiadomość z bloga!'
     submit     : 'Wyślij'
@@ -46,4 +46,4 @@ text       :
       sending    : 'Wysyłam...'
       sent       : 'Wysłano!'
       error      : 'Błąd!'
-  thanks     : 'Dziękuję za kontakt!'
+  thanks     : 'Odpowiem najszybciej jak to tylko możliwe :)'

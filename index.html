@@ -29,7 +29,8 @@ title: Home
       {% when '11' %}listopada
       {% when '12' %}grudnia
     {% endcase %}
-    {{ page.date | date: "%Y" }}</span>
+    {{ page.date | date: "%Y" }}
+    </span>
 
     {% if post.summary %}
       {{ post.summary }}

@@ -12,7 +12,24 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">    
+    {% assign m = page.date | date: "%-m" %}
+    {{ page.date | date: "%-d" }}
+    {% case m %}
+      {% when '1' %}stycznia
+      {% when '2' %}lutego
+      {% when '3' %}marca
+      {% when '4' %}kwietnia
+      {% when '5' %}maja
+      {% when '6' %}czerwca
+      {% when '7' %}lipca
+      {% when '8' %}sierpnia
+      {% when '9' %}września
+      {% when '10' %}października
+      {% when '11' %}listopada
+      {% when '12' %}grudnia
+    {% endcase %}
+    {{ page.date | date: "%Y" }}</span>
 
     {% if post.summary %}
       {{ post.summary }}

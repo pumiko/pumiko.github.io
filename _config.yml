@@ -39,7 +39,7 @@ text       :
     minute_read: 'min czytania'
   contact    :
     email      : 'E-mail'
-    content    : 'Treść'
+    content    : 'Wiadomość'
     subject    : 'Wiadomość z bloga!'
     submit     : 'Wyślij'
     ajax       :

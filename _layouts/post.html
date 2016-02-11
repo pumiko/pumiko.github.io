@@ -3,7 +3,17 @@ layout: default
 ---
 
 <!-- Whitespace added for readability -->
-{% assign m = page.date | date: "%-m" %}
+
+
+{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+{% if minutes == 0 %}
+{% assign minutes = 1 %}
+{% endif %}
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">
+    {% assign m = page.date | date: "%-m" %}
 {{ page.date | date: "%-d" }}
 {% case m %}
   {% when '1' %}Styczeń
@@ -20,15 +30,7 @@ layout: default
   {% when '12' %}Grudzień
 {% endcase %}
 {{ page.date | date: "%Y" }}
-
-{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
-{% if minutes == 0 %}
-{% assign minutes = 1 %}
-{% endif %}
-
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date }}</span>
+  </span>
   <span class="post-meta small">
   {% if page.minutes %}
     {{ page.minutes }} {{ site.text.post.minute_read }}

@@ -489,7 +489,7 @@ a.pagination-item:hover {
 }
 .layout-reverse .sidebar-toggle {
   left: auto;
-  right: 4%;
+  right: 1rem;
 }
 
 .layout-reverse #sidebar-checkbox:checked ~ .sidebar,

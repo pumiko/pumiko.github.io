@@ -14,7 +14,7 @@ layout: default
   
   <h1 class="post-title">{{ page.title }}</h1>
  
-  <span class="post-date">
+  <span class="post-date-inside">
     {% assign m = page.date | date: "%-m" %}
     {{ page.date | date: "%-d" }}
     {% case m %}

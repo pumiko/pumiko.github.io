@@ -220,8 +220,8 @@ a.sidebar-nav-item:focus {
   top: 1.5rem;
   left: 1rem;
   display: block;
-  width: 2.2rem;
-  padding: .5rem 1.0rem;
+  width: 1rem;
+  padding: .5rem .65rem;
   color: #505050;
   background-color: #fff;
   border-radius: 3px;
@@ -250,7 +250,7 @@ a.sidebar-nav-item:focus {
 @media (min-width: 30.1rem) {
   .sidebar-toggle {
     position: fixed;
-    width: 3.25rem;
+    width: 2.25rem;
     /* height: 5.25rem; */
   }
   .sidebar-toggle:before {

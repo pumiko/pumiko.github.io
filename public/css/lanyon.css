@@ -101,14 +101,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .masthead-title {
   margin-top: 0;
-  margin-bottom: -0.5em;
+  margin-bottom: 0;
   color: #505050;
 }
 .masthead-title a {
   color: #505050;
 }
 .masthead-title small {
-  font-size: 90%;
+  font-size: 75%;
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
@@ -216,16 +216,15 @@ a.sidebar-nav-item:focus {
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
-  position: fixed;
-  /* top: 4%; */
-  /* right: 4%; */
-  /* left: 1rem; */
+  position: absolute;
+  top:  1rem;
+  left: 1rem;
   display: block;
-  width: 1rem;
-  padding: 0% 0% 0% 0%;
+  width: 2.2rem;
+  padding: .5rem .65rem;
   color: #505050;
   background-color: #fff;
-  /* border-radius: 3px; */
+  border-radius: 4px;
   cursor: pointer;
 }
 .sidebar-toggle:before {
@@ -250,10 +249,8 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 30.1rem) {
   .sidebar-toggle {
-    position: absolute;
-    width: 1.5rem;
-    /* right: 4%; */
-    /* height: 5.25rem; */
+    position: fixed;
+    width: 2.25rem;
   }
   .sidebar-toggle:before {
     padding-bottom: .15rem;
@@ -319,9 +316,8 @@ a.sidebar-nav-item:focus {
   width: auto; 
   font-weight: 100; 
   font-size: .8rem ; 
-  line-height: 2em;
-  bottom: 10em;
-  vertical-align: 40%;
+  margin-bottom: 10em; 
+  padding: 0; 
   color: #9a9a9a; 
   font-style: italic; 
 }
@@ -491,9 +487,7 @@ a.pagination-item:hover {
 }
 .layout-reverse .sidebar-toggle {
   left: auto;
-  right: 5%;
-  top: 7%;
-  bottom: auto;
+  right: 1rem;
 }
 
 .layout-reverse #sidebar-checkbox:checked ~ .sidebar,
@@ -518,12 +512,10 @@ a.pagination-item:hover {
 .theme-base-08 #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #ac4142;
 }
-.theme-base-0e .container a,
-.theme-base-0e .sidebar-toggle,
-.theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
-  border: none;
-  outline: none;
+.theme-base-08 .container a,
+.theme-base-08 .sidebar-toggle,
+.theme-base-08 .related-posts li a:hover {
+  color: #ac4142;
 }
 
 /* Orange */

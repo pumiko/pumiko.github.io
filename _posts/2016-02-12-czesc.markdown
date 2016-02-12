@@ -3,6 +3,10 @@ published: true
 title: Cześć!
 layout: post
 summary:    Kilka słów  blogu i o jego autorce.
+tags: 
+  - dajsiepoznac
+  - projekt
+  - osobiste
 ---
 To pierwsze zdanie skasowałam już wielokrotnie, zarówno na ekranie jak i w myślach, bo żadne nie było wystarczająco dobre. To ciekawe doświadczenie, pisać dla siebie (i do drugiej osoby zarazem), a nie redagować sprawozdanie i opisywać tabelki, czym głównie zajmowałam się przez ostatnie kilkanaście miesięcy. Może powinnam zacząć od początku.
 

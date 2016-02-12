@@ -411,7 +411,7 @@ button, .button { text-shadow: none; background-image: none; }
 
 .button:hover, .button:focus, .button:active { color: white; text-shadow: none; background-image: none; }
 
-.button-blue { color: white; background-color: #CC99CC; border-radius: 3px; transition-duration: .1s; transition-timing-function: ease-out; transition-property: box-shadow, background-color; }
+.button-blue { color: white; background-color: #aa759f; border-radius: 3px; transition-duration: .1s; transition-timing-function: ease-out; transition-property: box-shadow, background-color; }
 
 .button-blue:hover { opacity: .875; }
 

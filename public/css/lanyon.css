@@ -316,8 +316,7 @@ a.sidebar-nav-item:focus {
   width: auto; 
   font-weight: 100; 
   font-size: .8rem ; 
-  margin-bottom: 10em; 
-  padding: 0; 
+  line-height: 3em;
   color: #9a9a9a; 
   font-style: italic; 
 }

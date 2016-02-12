@@ -101,14 +101,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .masthead-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: -0.5em;
   color: #505050;
 }
 .masthead-title a {
   color: #505050;
 }
 .masthead-title small {
-  font-size: 75%;
+  font-size: 90%;
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
@@ -316,7 +316,7 @@ a.sidebar-nav-item:focus {
   width: auto; 
   font-weight: 100; 
   font-size: .8rem ; 
-  margin-bottom: 10em; 
+  margin-bottom: 20em; 
   padding: 0; 
   color: #9a9a9a; 
   font-style: italic; 

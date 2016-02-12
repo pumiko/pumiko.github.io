@@ -35,6 +35,17 @@ share_stumbleupon: false
 share_hackernews: false
 
 text       :
+  share_buttons:
+    text:         'Przeczytałeś? Udostępnij!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
   post       :
     minute_read: 'min czytania'
   contact    :

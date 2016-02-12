@@ -316,7 +316,7 @@ a.sidebar-nav-item:focus {
   width: auto; 
   font-weight: 100; 
   font-size: .8rem ; 
-  line-height: 3em;
+  line-height: 4em;
   color: #9a9a9a; 
   font-style: italic; 
 }
@@ -348,7 +348,7 @@ a.sidebar-nav-item:focus {
 .post-date-inside {
   display: block;
   margin-top: -.2rem;
-  margin-bottom: 0;
+  margin-bottom: -1rem;
   color: #9a9a9a;
 }
 

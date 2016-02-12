@@ -212,6 +212,8 @@ img {
   display: inline-block;
   margin: 0 0.5em 0 0;
   position: relative;
+  border: none;
+  outline: none;
   /* border-radius: 0px; */
 }
 

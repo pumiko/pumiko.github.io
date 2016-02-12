@@ -216,15 +216,16 @@ a.sidebar-nav-item:focus {
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
-  position: absolute;
-  top: 1.5rem;
-  left: 1rem;
+  position: fixed;
+  /* top: 4%; */
+  /* right: 4%; */
+  /* left: 1rem; */
   display: block;
   width: 1rem;
-  padding: .5rem .65rem;
+  padding: 0% 0% 0% 0%;
   color: #505050;
   background-color: #fff;
-  border-radius: 3px;
+  /* border-radius: 3px; */
   cursor: pointer;
 }
 .sidebar-toggle:before {
@@ -249,14 +250,15 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 30.1rem) {
   .sidebar-toggle {
-    position: fixed;
-    width: 2.5rem;
+    position: absolute;
+    width: 1.5rem;
+    /* right: 4%; */
     /* height: 5.25rem; */
   }
   .sidebar-toggle:before {
-    /* padding-bottom: .15rem; */
-    border-top-width: .55rem;
-    border-bottom-width: .23rem;
+    padding-bottom: .15rem;
+    border-top-width: .45rem;
+    border-bottom-width: .15rem;
   }
 }
 
@@ -489,7 +491,9 @@ a.pagination-item:hover {
 }
 .layout-reverse .sidebar-toggle {
   left: auto;
-  right: 1rem;
+  right: 5%;
+  top: 7%;
+  bottom: auto;
 }
 
 .layout-reverse #sidebar-checkbox:checked ~ .sidebar,

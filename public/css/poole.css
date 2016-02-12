@@ -35,13 +35,11 @@
  * Update the foundational and global aspects of the page.
  */
 
-
 * {
- -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-         box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
-
 
 html,
 body {
@@ -208,15 +206,6 @@ img {
   border-radius: 5px;
 }
 
-.pumiko-icon {
-  display: inline-block;
-  margin: 0 0.5em 0 0;
-  position: relative;
-  border: none;
-  outline: none;
-  /* border-radius: 0px; */
-}
-
 /* Tables */
 table {
   margin-bottom: 1rem;
@@ -284,20 +273,20 @@ tbody tr:nth-child(odd) th {
  */
 
 .masthead {
-  padding-top:    0rem;
-  padding-bottom: 0rem;
-  margin-bottom: 1rem;
+  padding-top:    1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 .masthead-title {
   margin-top: 0;
-  margin-bottom: -0.5em;
+  margin-bottom: 0;
   color: #505050;
 }
 .masthead-title a {
   color: #505050;
 }
 .masthead-title small {
-  font-size: 90%;
+  font-size: 75%;
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;

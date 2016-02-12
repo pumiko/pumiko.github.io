@@ -3,8 +3,8 @@ pygments: true
 markdown: kramdown
 url: http://pumiko.pepiniera.net
 title: pumiko
-tagline: pumiko
-description: historia zakręconego projektu
+tagline: Historia zakręconego projektu
+description: 
 paginate: 5
 email:  stec.magda@gmail.com
 author: Pumiko

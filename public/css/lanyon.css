@@ -303,6 +303,9 @@ a.sidebar-nav-item:focus {
   letter-spacing: 10;
 }
 
+.meta, .post-meta { width: auto; font-weight: 300; margin: 0; padding: .25em 0; color: #7a7a7a; font-style: italic; }
+
+
 /*
  * Posts and pages
  *

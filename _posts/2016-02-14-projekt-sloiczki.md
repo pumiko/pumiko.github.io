@@ -2,7 +2,7 @@
 published: true
 title: Projekt Słoiczki
 layout: post
-summary: "Słoiczki to pomysł, z którym startuję w"
+summary: "Słoiczki to pomysł, z którym startuję w &#35;dajsiepoznac. W poście znajduje się krótki opis tego projektu i lista rzeczy do zrobienia."
 tags: 
   - dajsiepoznac
   - projekt

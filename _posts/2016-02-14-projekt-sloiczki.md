@@ -9,16 +9,17 @@ tags:
   - słoiczki
 ---
 
+
 Krótki opis Słoiczków pojawił się już w [poście powitalnym](http://pumiko.pl/2016/02/12/czesc.html "Blog Pumiko"), jednak warto raz jeszcze go powtórzyć. Słoiczki mają być platformą do sprzedaży i kupna domowych przetworów, takich jak dżemy, soki, ogórki kiszone, itp. Ma ona spełniać podstawową funkcjonalność serwisów ogłoszeń lokalnych. Zajawki, które chcę zrealizować podczas tworzenia Słoiczków to automatyczne przypisywanie klas do ogłoszeń (zupełnie bez ingerencji użytkowników) oraz możliwość łatwiej lokalizacji ogłoszenia na mapie. 
 
 Pierwsze prace koncepcyjne nad Słoiczkami przeprowadziliśmy już wcześniej, zaczęło się od rysunków, luźnych ustaleń, dyskusji. Czas to uporządkować. Wiedzę techniczną mam zbyt małą, żeby do końca logicznie ustawić kolejność prac nad projektem, więc poniższa lista ma mieć charakter poglądowy i trochę pobożnożyczeniowy. Część zadań to pewnie praca na jeden wieczór, a inne mogłyby stanowić osobny projekt. W każdym razie chciałam uwzględnić jak najwięcej rzeczy związanych z tworzeniem, wdrażaniem i utrzymaniem platformy, bo umiejętności z zakresu pozycjonowania czy optymalizacji wydają się być dość istotne, czy to na rynku pracy, czy też dla wdrażania innych projektów i pomysłów w życie.
 Wraz z postępem prac post będzie edytowany. Lista planów może zostać skrócona, wydłużona, uszczegółowiona, ale przede wszystkim mam nadzieję, że będę z niej wykreślać kolejne hasła. :)
 
 ### Do zrobienia:
-1. ~~Użytkownik - rejestracja, logowanie, wylogowanie, zmiana danych.~~  
-2. Ogłoszenie - ~~dodawanie~~, flagowanie nieaktywnych, edycja danych, formularze dodawania ogłoszeń z uzupełnionymi domyślnie wartościami dla zalogowanego użytkownika, lub w przypadku opcji "dodaj kolejne ogłoszenie".
-3. ~~Wyświetlenie pojedynczego ogłoszenia - ładne i czytelne linki do ogłoszeń.~~
-4. ~~Wyświetlenie listy ogłoszeń.~~
+1. <del>Użytkownik - rejestracja, logowanie, wylogowanie, zmiana danych.</del>  
+2. Ogłoszenie - <del>dodawanie</del>, flagowanie nieaktywnych, edycja danych, formularze dodawania ogłoszeń z uzupełnionymi domyślnie wartościami dla zalogowanego użytkownika, lub w przypadku opcji "dodaj kolejne ogłoszenie".
+3. <del>Wyświetlenie pojedynczego ogłoszenia - ładne i czytelne linki do ogłoszeń.</del>
+4. <del>Wyświetlenie listy ogłoszeń.</del>
 5. Dodawanie zdjęć do ogłoszeń.
 6. Galeria zdjęć w ogłoszeniach.
 7. Liczba wyświetleń ogłoszenia.
@@ -46,4 +47,4 @@ Wraz z postępem prac post będzie edytowany. Lista planów może zostać skróc
 29. Wdrożenie analityki na stronie. 
 30. Strony statyczne - regulamin, tutorial, itp. 
 31. Słoiczkowy blog.
-32. Aplikacja mobilna dla Słoiczków. 
+32. Aplikacja mobilna dla Słoiczków.

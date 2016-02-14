@@ -15,4 +15,4 @@ Hej, mam na imię Magda, a to mój blog programistyczny. Założyłam go, żeby 
 Chcę przygotować platformę do wymiany (sprzedaży, kupna) domowych przetworów. Tak, coś na kształt popularnych serwisów ogłoszeń lokalnych, ale z wyraźnym wyspecjalizowaniem. Czy to ma potencjał zaistnieć? Widząc słoiczki zalegające w rodzinnej piwnicy, których nikt nie jest w stanie przejeść, sądzę że tak, ten zwariowany pomysł ma sens. Przede wszystkim mam jednak nadzieję jak najwięcej się nauczyć, bo projekt wydaje się spory, zwłaszcza dla osoby początkującej. :) 
 Cieszę się też z tego, że poza Pythonem, Django, HTMLem, CSSem będę miała możliwość poznać GitHub. Nie spodziewałam się, że w tak krótkim czasie rozpocznę naukę tylu nowych rzeczy. 
 
-To tyle. Krótki opis projektu, linki do FB i Twittera itp. już w następnym poście. 
+To tyle. Krótki opis projektu już w następnym poście. 

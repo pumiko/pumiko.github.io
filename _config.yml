@@ -1,12 +1,12 @@
 excerpt_separator: ""
 pygments: true
 markdown: kramdown
-url: http://pumiko.pepiniera.net
+url: http://pumiko.pl
 title: pumiko
 tagline: Historia zakręconego projektu
 description: Blog pumiko
 paginate: 5
-email:  stec.magda@gmail.com
+email:  pumiko@pumiko.pl
 author: Pumiko
 
 show_social_icons: true
@@ -22,6 +22,7 @@ github_username: pumiko
 bitbucket_username:
 stackoverflow_id:
 twitter_username: pumi_ko
+facebook_username: pepiniera.net
 skype_username:
 steam_nickname:
 google_plus_id:

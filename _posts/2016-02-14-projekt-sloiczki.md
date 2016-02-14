@@ -16,7 +16,7 @@ Pierwsze prace koncepcyjne nad Słoiczkami przeprowadziliśmy już wcześniej, z
 Wraz z postępem prac post będzie edytowany. Lista planów może zostać skrócona, wydłużona, uszczegółowiona, ale przede wszystkim mam nadzieję, że będę z niej wykreślać kolejne hasła. :)
 
 ### Do zrobienia:
-<del>1. Użytkownik - rejestracja, logowanie, wylogowanie, zmiana danych.</del>  
+1. <del>Użytkownik - rejestracja, logowanie, wylogowanie, zmiana danych.</del>  
 2. Ogłoszenie - <del>dodawanie</del>, flagowanie nieaktywnych, edycja danych, formularze dodawania ogłoszeń z uzupełnionymi domyślnie wartościami dla zalogowanego użytkownika, lub w przypadku opcji "dodaj kolejne ogłoszenie".
 3. <del>Wyświetlenie pojedynczego ogłoszenia - ładne i czytelne linki do ogłoszeń.</del>
 4. <del>Wyświetlenie listy ogłoszeń.</del>

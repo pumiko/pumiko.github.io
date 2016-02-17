@@ -1,23 +1,28 @@
 excerpt_separator: ""
 pygments: true
 markdown: kramdown
-url: http://pumiko.pepiniera.net
+url: http://pumiko.pl
 title: pumiko
-tagline: A log of everyday life
-description: My awesome new site
+tagline: Historia zakręconego projektu
+description: Blog pumiko
 paginate: 5
-email:  stec.magda@gmail.com
+email:  pumiko@pumiko.pl
 author: Pumiko
 
 show_social_icons: true
 show_sharing_icons: true
 disqus_shortname: pumiko
 
+# Google services
+google_analytics: UA-73762910-1
+google_verification:
+
 # Social icons
 github_username: pumiko
 bitbucket_username:
 stackoverflow_id:
-twitter_username: 
+twitter_username: pumi_ko
+facebook_username: pepiniera.net
 skype_username:
 steam_nickname:
 google_plus_id:
@@ -35,6 +40,17 @@ share_stumbleupon: false
 share_hackernews: false
 
 text       :
+  share_buttons:
+    text:         'Przeczytałeś? Udostępnij!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
   post       :
     minute_read: 'min czytania'
   contact    :

@@ -1,7 +1,6 @@
 excerpt_separator: ""
-markdown: redcarpet
-redcarpet:
- extensions: ['smart', 'tables', 'with_toc_data', 'fenced_code_blocks']
+markdown: kramdown
+extensions: ['smart', 'tables', 'with_toc_data', 'fenced_code_blocks']
 url: http://pumiko.pl
 title: pumiko
 tagline: Historia zakręconego projektu

@@ -18,8 +18,8 @@ Odpowiedzią na tę potrzebę okazało się pole "slug", jednak znalezienie opty
 
 W związku z tym, pomyślałam, że dla usystematyzowania zdobytej wiedzy warto samodzielnie zapisać pełne rozwiązanie. Możliwe, że przyda się ono w przypadku kolejnych napotkanych problemów.
 
-##Rozwiązanie dla Django 1.8
-####1. Zaimportowanie filtru slugify, dodanie pola slug do modelu ogłoszenia (Ad) i zdefiniowanie funkcji save, zamieniającej tutuł na slug w website\models.py.
+###Rozwiązanie dla Django 1.8
+1. Zaimportowanie filtru slugify, dodanie pola slug do modelu ogłoszenia (Ad) i zdefiniowanie funkcji save, zamieniającej tutuł na slug w website\models.py.
 ```python
 from django.db import models
 from django.template.defaultfilters import slugify
@@ -34,7 +34,7 @@ class Ad(models.Model):
         return super(Ad, self).save()
 ```
 
-####2. Utworzenie widoku pojedynczego ogłoszenia w website\views.py.
+2. Utworzenie widoku pojedynczego ogłoszenia w website\views.py.
 ```python
 from django.shortcuts import render, get_object_or_404
 from .models import Ad
@@ -44,7 +44,7 @@ def ad_detail(request, id, slug=None):
     return render(request, 'website/ad_detail.html', {'ad': ad})
 ```
 
-####3. Utworzenie szablonu HTML dla widoku pojedynczego ogłoszenia website\templates\website\ad_detail.html.
+3. Utworzenie szablonu HTML dla widoku pojedynczego ogłoszenia website\templates\website\ad_detail.html.
 ```html
 <body>
     {% block content %}
@@ -59,7 +59,7 @@ def ad_detail(request, id, slug=None):
 </body>
 ```
 
-####4. Dodanie wzoru adresu url wykorzystującego id oraz slug w website\urls.py.    
+4. Dodanie wzoru adresu url wykorzystującego id oraz slug w website\urls.py.    
 ```python
 from django.conf.urls import url
 from . import views
@@ -71,7 +71,7 @@ urlpatterns = [
 ```
 
 Konieczne stało się również uzupełnienie innych widoków i poprawki w odnośnikach, tak żeby można było logicznie poruszać się po stronie. 
-####5. Zwrócenie odpowiedzi w postaci strony z nowym ogłoszeniem po jego dodaniu. Uzupełnienie widoku ad_new w website\views.py.
+5. Zwrócenie odpowiedzi w postaci strony z nowym ogłoszeniem po jego dodaniu. Uzupełnienie widoku ad_new w website\views.py.
 ```python
 from django.shortcuts import render, redirect
 from .models import Ad
@@ -90,7 +90,7 @@ def ad_new(request):
     return render(request, 'website/ad_new.html', {'form': form})
 ```
 
-####6. Utworzenie odnośnika ze strony listy ogłoszeń do ogłoszenia.
+6. Utworzenie odnośnika ze strony listy ogłoszeń do ogłoszenia.
 ```html
 <body>
     <h1>Lista ogłoszeń</h1>

@@ -20,7 +20,7 @@ W związku z tym, pomyślałam, że dla usystematyzowania zdobytej wiedzy warto 
 
 ##Rozwiązanie dla Django 1.8
 ###1. Zaimportowanie filtru slugify, dodanie pola slug do modelu ogłoszenia (Ad) i zdefiniowanie funkcji save, zamieniającej tutuł na slug w website\models.py.
-{% highlight python %}
+```python
 from django.db import models
 from django.template.defaultfilters import slugify
 
@@ -32,20 +32,20 @@ class Ad(models.Model):
         if self.slug != slug:
             self.slug = slug
         return super(Ad, self).save()
-{% endhighlight %}
+```
 
 ###2. Utworzenie widoku pojedynczego ogłoszenia w website\views.py.
-{% highlight python %}
+```python
 from django.shortcuts import render, get_object_or_404
 from .models import Ad
 
 def ad_detail(request, id, slug=None):
     ad = get_object_or_404(Ad, id=id)
     return render(request, 'website/ad_detail.html', {'ad': ad})
-{% endhighlight %}
+```
 
 ###3. Utworzenie szablonu HTML dla widoku pojedynczego ogłoszenia website\templates\website\ad_detail.html.
-{% highlight html %}
+```html
 <body>
     {% block content %}
         {% if ad.published_date %}
@@ -57,10 +57,10 @@ def ad_detail(request, id, slug=None):
          <p>{{ ad.text|linebreaks }}</p>
     {% endblock %}
 </body>
-{% endhighlight %}
+```
 
 ###4. Dodanie wzoru adresu url wykorzystującego id oraz slug w website\urls.py.    
-{% highlight python %}
+```python
 from django.conf.urls import url
 from . import views
 
@@ -68,11 +68,11 @@ urlpatterns = [
 	...
     url(r'^ad/(?P<id>[\d]+)/(?P<slug>[-\w\d]+)/$', views.ad_detail, name='ad_detail'),
 ]
-{% endhighlight %}
+```
 
 Konieczne stało się również uzupełnienie innych widoków i poprawki w odnośnikach, tak żeby można było logicznie poruszać się po stronie. 
 ###5. Zwrócenie odpowiedzi w postaci strony z nowym ogłoszeniem po jego dodaniu. Uzupełnienie widoku ad_new w website\views.py.
-{% highlight python %}
+```python
 from django.shortcuts import render, redirect
 from .models import Ad
 
@@ -88,10 +88,10 @@ def ad_new(request):
         form = AdsForm()
 
     return render(request, 'website/ad_new.html', {'form': form})
-{% endhighlight %}
+```
 
 ###6. Utworzenie odnośnika ze strony listy ogłoszeń do ogłoszenia.
-{% highlight html %}
+```html
 <body>
     <h1>Lista ogłoszeń</h1>
     {% for ad in ads %}
@@ -102,6 +102,6 @@ def ad_new(request):
         </div>
     {% endfor %}
 </body>
-{% endhighlight %}
+```
 
 Mam nadzieję, że o niczym nie zapomniałam :). 

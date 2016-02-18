@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "Jak stworzyć ładne linki ogłoszeń?"
 layout: post
 summary: "O tym jak w dość prosty sposób utworzyć czytelne linki na podstawie id i tytułu ogłoszenia."
@@ -21,7 +21,7 @@ W związku z tym, pomyślałam, że dla usystematyzowania zdobytej wiedzy warto 
 ###Rozwiązanie dla Django 1.8
 1. Zaimportowanie filtru slugify, dodanie pola slug do modelu ogłoszenia (Ad) i zdefiniowanie funkcji save, zamieniającej tutuł na slug w website\models.py.
 
-    ``` python
+    {% highlight python %}
     from django.db import models
     from django.template.defaultfilters import slugify
     
@@ -33,22 +33,22 @@ W związku z tym, pomyślałam, że dla usystematyzowania zdobytej wiedzy warto 
             if self.slug != slug:
                 self.slug = slug
             return super(Ad, self).save()
-    ```
+    {% endhighlight %}
 
 2. Utworzenie widoku pojedynczego ogłoszenia w website\views.py.
 
-    ``` python
+    {% highlight python %}
     from django.shortcuts import render, get_object_or_404
     from .models import Ad
     
     def ad_detail(request, id, slug=None):
         ad = get_object_or_404(Ad, id=id)
         return render(request, 'website/ad_detail.html', {'ad': ad})
-    ```
+    {% endhighlight %}
 
 3. Utworzenie szablonu HTML dla widoku pojedynczego ogłoszenia website\templates\website\ad_detail.html.
 
-    ``` html
+    {% highlight html %}
     {% raw %}
     <body>
         {% block content %}
@@ -62,11 +62,11 @@ W związku z tym, pomyślałam, że dla usystematyzowania zdobytej wiedzy warto 
         {% endblock %}
     </body>
     {% endraw %}
-    ```
+    {% endhighlight %}
 
 4. Dodanie wzoru adresu url wykorzystującego id oraz slug w website\urls.py.
 
-    ``` python
+    {% highlight python %}
     from django.conf.urls import url
     from . import views
     
@@ -74,13 +74,13 @@ W związku z tym, pomyślałam, że dla usystematyzowania zdobytej wiedzy warto 
     	...
         url(r'^ad/(?P<id>[\d]+)/(?P<slug>[-\w\d]+)/$', views.ad_detail, name='ad_detail'),
     ]
-    ```
+    {% endhighlight %}
 
     Konieczne stało się również uzupełnienie innych widoków i poprawki w odnośnikach, tak żeby można było logicznie poruszać się po stronie. 
 
 5. Zwrócenie odpowiedzi w postaci strony z nowym ogłoszeniem po jego dodaniu. Uzupełnienie widoku ad_new w website\views.py.
 
-    ``` python
+    {% highlight python %}
     from django.shortcuts import render, redirect
     from .models import Ad
     
@@ -96,11 +96,11 @@ W związku z tym, pomyślałam, że dla usystematyzowania zdobytej wiedzy warto 
             form = AdsForm()
     
         return render(request, 'website/ad_new.html', {'form': form})
-    ```
+    {% endhighlight %}
 
 6. Utworzenie odnośnika ze strony listy ogłoszeń do ogłoszenia.
 
-    ``` html
+    {% highlight html %}
     {% raw %}
     <body>
         <h1>Lista ogłoszeń</h1>
@@ -113,6 +113,6 @@ W związku z tym, pomyślałam, że dla usystematyzowania zdobytej wiedzy warto 
         {% endfor %}
     </body>
     {% endraw %}
-    ```
+    {% endhighlight %}
 
 Mam nadzieję, że o niczym nie zapomniałam :). 

@@ -20,7 +20,7 @@ W związku z tym, pomyślałam, że dla usystematyzowania zdobytej wiedzy warto 
 
 ###Rozwiązanie dla Django 1.8
 1. Zaimportowanie filtru slugify, dodanie pola slug do modelu ogłoszenia (Ad) i zdefiniowanie funkcji save, zamieniającej tutuł na slug w website\models.py.
-```python
+``` python
 from django.db import models
 from django.template.defaultfilters import slugify
 
@@ -35,7 +35,7 @@ class Ad(models.Model):
 ```
 
 2. Utworzenie widoku pojedynczego ogłoszenia w website\views.py.
-```python
+``` python
 from django.shortcuts import render, get_object_or_404
 from .models import Ad
 
@@ -45,7 +45,7 @@ def ad_detail(request, id, slug=None):
 ```
 
 3. Utworzenie szablonu HTML dla widoku pojedynczego ogłoszenia website\templates\website\ad_detail.html.
-```html
+``` html
 <body>
     {% block content %}
         {% if ad.published_date %}
@@ -60,7 +60,7 @@ def ad_detail(request, id, slug=None):
 ```
 
 4. Dodanie wzoru adresu url wykorzystującego id oraz slug w website\urls.py.    
-```python
+``` python
 from django.conf.urls import url
 from . import views
 
@@ -72,7 +72,7 @@ urlpatterns = [
 
 Konieczne stało się również uzupełnienie innych widoków i poprawki w odnośnikach, tak żeby można było logicznie poruszać się po stronie. 
 5. Zwrócenie odpowiedzi w postaci strony z nowym ogłoszeniem po jego dodaniu. Uzupełnienie widoku ad_new w website\views.py.
-```python
+``` python
 from django.shortcuts import render, redirect
 from .models import Ad
 
@@ -91,7 +91,7 @@ def ad_new(request):
 ```
 
 6. Utworzenie odnośnika ze strony listy ogłoszeń do ogłoszenia.
-```html
+``` html
 <body>
     <h1>Lista ogłoszeń</h1>
     {% for ad in ads %}

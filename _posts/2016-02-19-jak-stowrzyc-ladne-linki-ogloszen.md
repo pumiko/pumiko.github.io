@@ -1,5 +1,13 @@
 ---
 published: false
+title: "Jak stworzyć ładne linki ogłoszeń?"
+layout: post
+summary: O tym jak w dość prosty sposób utworzyć czytelne linki na podstawie id i tytułu ogłoszenia.
+tags: 
+  - dajsiepoznac
+  - projekt
+  - słoiczki
+  - django
 ---
 
 Jednym z już zrealizowanych zadań w ramach pracy nad Słoiczkami było utworzenie czytelnych linków do poszczególnych ogłoszeń, które będą przede wszystkim przydatne użytkownikom. Najprościej to osiągnąć tworząc link z tytułu ogłoszenia, z uwzględnieniem tego, że tytuły nie muszą być unikalne, bo np. "dżem truskawkowy" jest dość popularnym przetworem. W takim przypadku z pomocą przychodzi chociażby id ogłoszenia.

@@ -1,5 +1,4 @@
 excerpt_separator: ""
-pygments: true
 markdown: kramdown
 url: http://pumiko.pl
 title: pumiko
@@ -63,3 +62,7 @@ text       :
       sent       : 'Wysłano!'
       error      : 'Błąd!'
   thanks     : 'Odpowiem najszybciej jak to tylko możliwe :)'
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap

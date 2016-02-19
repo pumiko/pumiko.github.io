@@ -36,7 +36,7 @@ class Ad(models.Model):
         return super(Ad, self).save()
 {% endhighlight %}
 
-####2. Utworzenie widoku pojedynczego ogłoszenia w website\views.py.
+<h4>2. Utworzenie widoku pojedynczego ogłoszenia w <i>website\views.py</i>.</h4>
 
 {% highlight python %}
 from django.shortcuts import render, get_object_or_404
@@ -47,7 +47,7 @@ def ad_detail(request, id, slug=None):
     return render(request, 'website/ad_detail.html', {'ad': ad})
 {% endhighlight %}
 
-####3. Utworzenie szablonu HTML dla widoku pojedynczego ogłoszenia website\templates\website\ad_detail.html.
+<h4>3. Utworzenie szablonu HTML dla widoku pojedynczego ogłoszenia <i>website\templates\website\ad_detail.html</i>.</h4>
 
 {% highlight html %}
 {% raw %}
@@ -65,7 +65,7 @@ def ad_detail(request, id, slug=None):
 {% endraw %}
 {% endhighlight %}
 
-####4. Dodanie wzoru adresu url wykorzystującego id oraz slug w website\urls.py.
+<h4>4. Dodanie wzoru adresu url wykorzystującego id oraz slug w <i>website\urls.py</i>.</h4>
 
 {% highlight python %}
 from django.conf.urls import url
@@ -79,7 +79,7 @@ urlpatterns = [
 
 Konieczne stało się również uzupełnienie innych widoków i poprawki w odnośnikach, tak żeby można było logicznie poruszać się po stronie. 
 
-####5. Zwrócenie odpowiedzi w postaci strony z nowym ogłoszeniem po jego dodaniu. Uzupełnienie widoku ad_new w website\views.py.
+<h4>5. Zwrócenie odpowiedzi w postaci strony z nowym ogłoszeniem po jego dodaniu. Uzupełnienie widoku <i>ad_new</i> w <i>website\views.py</i>.</h4>
 
 {% highlight python %}
 from django.shortcuts import render, redirect
@@ -99,7 +99,7 @@ def ad_new(request):
     return render(request, 'website/ad_new.html', {'form': form})
 {% endhighlight %}
 
-####6. Utworzenie odnośnika ze strony listy ogłoszeń do ogłoszenia.
+<h4>6. Utworzenie odnośnika ze strony listy ogłoszeń do ogłoszenia.</h4>
 
 {% highlight html %}
 {% raw %}

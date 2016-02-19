@@ -116,4 +116,4 @@ def ad_new(request):
 {% endraw %}
 {% endhighlight %}
 
-Mam nadzieję, że o niczym nie zapomniałam :). 
+Mam nadzieję, że o niczym nie zapomniałam :)

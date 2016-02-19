@@ -12,7 +12,7 @@ tags:
 
 Jednym z już zrealizowanych zadań w ramach pracy nad Słoiczkami było utworzenie czytelnych linków do poszczególnych ogłoszeń, które będą przede wszystkim przydatne użytkownikom. Najprościej to osiągnąć tworząc link z tytułu ogłoszenia, z uwzględnieniem tego, że tytuły nie muszą być unikalne, bo np. "dżem truskawkowy" jest dość popularnym przetworem. W takim przypadku z pomocą przychodzi chociażby id ogłoszenia.
 
-Chciałam, aby docelowo linki wyglądały następująco: /id-tytul.html/. Ostatecznie uzyskały postać /id/tytul.html
+Chciałam, aby docelowo linki wyglądały następująco: <i>/id-tytul.html/</i>. Ostatecznie uzyskały postać: <i>/id/tytul.html</i>.
 
 Odpowiedzią na tę potrzebę okazało się pole "slug", jednak znalezienie optymalnego rozwiązania sporo zajęło, zwłaszcza, że z punktu widzenia osoby początkującej każda ze znalezionych odpowiedzi wydawała się niepełna, urwana w połowie i nie byłam w stanie zgadnąć co należy dalej zrobić oraz zrozumieć co dokładnie mówiły błędy, bo "przecież wszystko ładnie skopiowałam".
 
@@ -20,7 +20,7 @@ W związku z tym, pomyślałam, że dla usystematyzowania zdobytej wiedzy warto 
 
 <h3>Rozwiązanie dla Django 1.8</h3>
 
-####1. Zaimportowanie filtru slugify, dodanie pola slug do modelu ogłoszenia (Ad) i zdefiniowanie funkcji save, zamieniającej tutuł na slug w website\models.py.
+<h4>1. Zaimportowanie filtru slugify, dodanie pola slug do modelu ogłoszenia (Ad) i zdefiniowanie funkcji save, zamieniającej tutuł na slug w <i>website\models.py</i>.</h4>
 
 {% highlight python %}
 from django.db import models

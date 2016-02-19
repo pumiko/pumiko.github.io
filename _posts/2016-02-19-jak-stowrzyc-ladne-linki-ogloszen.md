@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: "Jak stworzyć ładne linki ogłoszeń?"
 layout: post
 summary: "O tym jak w dość prosty sposób utworzyć czytelne linki na podstawie id i tytułu ogłoszenia."

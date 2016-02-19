@@ -18,8 +18,7 @@ Odpowiedzią na tę potrzebę okazało się pole "slug", jednak znalezienie opty
 
 W związku z tym, pomyślałam, że dla usystematyzowania zdobytej wiedzy warto samodzielnie zapisać pełne rozwiązanie. Możliwe, że przyda się ono w przypadku kolejnych napotkanych problemów.
 
-###Rozwiązanie dla Django 1.8
-
+<h3>Rozwiązanie dla Django 1.8</h3>
 
 ####1. Zaimportowanie filtru slugify, dodanie pola slug do modelu ogłoszenia (Ad) i zdefiniowanie funkcji save, zamieniającej tutuł na slug w website\models.py.
 

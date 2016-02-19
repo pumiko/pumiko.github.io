@@ -20,6 +20,7 @@ W związku z tym, pomyślałam, że dla usystematyzowania zdobytej wiedzy warto 
 
 ###Rozwiązanie dla Django 1.8
 
+
 ####1. Zaimportowanie filtru slugify, dodanie pola slug do modelu ogłoszenia (Ad) i zdefiniowanie funkcji save, zamieniającej tutuł na slug w website\models.py.
 
 {% highlight python %}

@@ -29,8 +29,8 @@ from django.template.defaultfilters import slugify
 class Ad(models.Model):
     slug = models.SlugField(max_length=100)
 	
-	def save(self):
-		slug = slugify(self.title)
+    def save(self):
+	slug = slugify(self.title)
         if self.slug != slug:
             self.slug = slug
         return super(Ad, self).save()
@@ -72,7 +72,7 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-	...
+    ...
     url(r'^ad/(?P<id>[\d]+)/(?P<slug>[-\w\d]+)/$', views.ad_detail, name='ad_detail'),
 ]
 {% endhighlight %}

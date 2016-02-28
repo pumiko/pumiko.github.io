@@ -8,6 +8,7 @@ tags:
   - pepiniera
 ---
 
+
 ![Pepiniera](pumiko,github.io/public/pepiniera.jpg)
 
 Jedną z dobrych rad dla uczestników konkursu [#dajsiepoznac](http://dajsiepoznac.pl/) było założenie fanpage'a bloga na Facebooku. Decyzja o skorzystaniu z tej podpowiedzi była dość prosta, jednak wykonanie jej już niekoniecznie. Razem z [Bartkiem](http://donpiekarz.pl/) zadaliśmy sobie pytanie: zakładamy go wspólnie czy osobno? 

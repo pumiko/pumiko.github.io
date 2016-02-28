@@ -2,7 +2,7 @@
 published: true
 title: Pepiniera
 layout: post
-summary: "Oprócz założenia bloga na konkurs \#dajsiepoznac razem z <a href="http://donpiekarz.pl/">donpiekarz</a> postanowiliśmy założyć wspólny fanpage na Facebooku. Tutaj kilka słów o nim."
+summary: "Oprócz założenia bloga na konkurs dajsiepoznac postanowiliśmy wspólnie z Bartkiem założyć wspólny fanpage na Facebooku. Tutaj kilka słów o nim."
 tags: 
   - dajsiepoznac
   - pepiniera

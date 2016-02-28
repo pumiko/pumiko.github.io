@@ -1,5 +1,11 @@
 ---
-published: false
+published: true
+title: Pepiniera
+layout: post
+summary: "Oprócz założenia bloga na konkurs \#dajsiepoznac razem z <a href="http://donpiekarz.pl/">donpiekarz</a> postanowiliśmy założyć wspólny fanpage na Facebooku. Tutaj kilka słów o nim."
+tags: 
+  - dajsiepoznac
+  - pepiniera
 ---
 
 ![Pepiniera](pumiko,github.io/public/pepiniera.jpg)

@@ -10,6 +10,8 @@ tags:
   - django
 ---
 
+<img src="https://dl.dropboxusercontent.com/s/3c28b8wezqb9ksd/purple_cat.jpg" alt="Purple Cat" style="width: 100%;height: auto;">
+
 Jednym z już zrealizowanych zadań w ramach pracy nad Słoiczkami było utworzenie czytelnych linków do poszczególnych ogłoszeń, które będą przede wszystkim przydatne użytkownikom. Najprościej to osiągnąć tworząc link z tytułu ogłoszenia, z uwzględnieniem tego, że tytuły nie muszą być unikalne, bo np. "dżem truskawkowy" jest dość popularnym przetworem. W takim przypadku z pomocą przychodzi chociażby id ogłoszenia.
 
 Chciałam, aby docelowo linki wyglądały następująco: <i>/id-tytul.html/</i>. Ostatecznie uzyskały postać: <i>/id/tytul.html</i>.

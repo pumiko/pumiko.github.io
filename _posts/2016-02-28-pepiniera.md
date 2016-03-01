@@ -2,7 +2,8 @@
 published: true
 title: Pepiniera
 layout: post
-summary: "Oprócz założenia bloga na konkurs dajsiepoznac postanowiliśmy wspólnie z Bartkiem założyć fanpage na Facebooku. Tutaj kilka słów o nim."
+summary: <img src="https://dl.dropboxusercontent.com/s/qq7q7mc9cbxtwhv/pepiniera_slim.jpg" alt="Pepiniera" style="width: 100%;height: auto;">
+Oprócz założenia bloga na konkurs dajsiepoznac postanowiliśmy wspólnie z Bartkiem założyć fanpage na Facebooku. Tutaj kilka słów o nim.
 tags: 
   - dajsiepoznac
   - pepiniera

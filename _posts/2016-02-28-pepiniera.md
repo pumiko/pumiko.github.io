@@ -9,7 +9,7 @@ tags:
 ---
 
 
-<img src="/public/pepiniera.jpg" alt="Pepiniera" style="width: 100%;height: auto;">
+<img src="https://www.dropbox.com/s/qq7q7mc9cbxtwhv/pepiniera.jpg?dl=0" alt="Pepiniera" style="width: 100%;height: auto;">
 
 Jedną z dobrych rad dla uczestników konkursu [#dajsiepoznac](http://dajsiepoznac.pl/) było założenie fanpage'a bloga na Facebooku. Decyzja o skorzystaniu z tej podpowiedzi była dość prosta, jednak wykonanie jej już niekoniecznie. Razem z [Bartkiem](http://donpiekarz.pl/) zadaliśmy sobie pytanie: zakładamy go wspólnie czy osobno? 
 Z jednej strony naszych blogów nie łączy właściwie nic. Chcemy publikować na nich zupełnie inne rzeczy i prawdopodobnie zainteresujemy nimi (o ile w ogóle) zupełnie innych ludzi. Jednak z drugiej strony oba mają zawierać treści dotyczące kodowania. Dodatkowo, gdybyśmy chcieli na FB udostępniać czytaną codziennie "prasę", to w dużej mierze będzie się ona pokrywać, ponieważ częścią artykułów wymieniamy się i udostępniamy je sobie. Znaczna część tych artykułów dotyczy rozwoju osobistego, komunikacji lub w jakiś inny sposób jest "nietechniczna". Ponieważ tego typu treści mogą się wydać interesujące również dla szerszego grona odbiorców, i skoro i tak się nimi wymieniamy, to zyskaliśmy argument za tym, aby takie treści udostępniać wspólnie. Raz jeszcze rozważyliśmy wszystkie "za" i "przeciw" obu rozwiązań (posiadania osobnych / wspólnego FB) i postawiliśmy na założenie fanpage'a razem. 

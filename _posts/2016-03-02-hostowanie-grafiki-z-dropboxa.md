@@ -31,6 +31,7 @@ Po zalogowaniu na swoje konto i upewnieniu się, że mamy tam obrazek, który ch
 <img src="https://dl.dropboxusercontent.com/s/8je67noj5bhixhw/dropbox_img_3.jpg" alt="Udostępnianie pliku z klienta webowego Dropboxa" style="max-width: 100%;height: auto; position: center;">
 
 Potwierdzeniem udostępnienia pliku jest okienko, w którym możemy poinformować innych o tym, że udostępniliśmy plik, a także skopiować adres.
+
 <img src="https://dl.dropboxusercontent.com/s/gfjf0razfs4d9ew/dropbox_img_4.jpg" alt="Potwierdzenie udostępnienia pliku z linkiem do skopiowania" style="max-width: 100%;height: auto; position: center;">
 
 <h4>2. Z aplikacji desktopowej</h4> 

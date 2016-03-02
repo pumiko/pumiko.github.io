@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Hostowanie grafiki z Dropboxa
 layout: post
 summary: "Ostatnio zmierzyłam się z dodawania obrazków do postów. Wynikiem tej przygody jest krótki poradnik o tym, jak korzystać z grafik udostępnionych z Dropboxa na swojej stronie. Kilka ważnych informacji, zwłaszcza dla nowych użytkowników."

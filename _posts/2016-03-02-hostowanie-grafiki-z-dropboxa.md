@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Hostowanie grafiki z Dropboxa
 layout: post
 summary: "Ostatnio zmierzyłam się z dodawania obrazków do postów. Wynikiem tej przygody jest krótki poradnik o tym, jak korzystać z grafik udostępnionych z Dropboxa na swojej stronie. Kilka ważnych informacji, zwłaszcza dla nowych użytkowników."
@@ -28,22 +28,22 @@ Inni też muszą mieć do niego dostęp. Pliki można udostępnić na [kilka spo
 
 Po zalogowaniu na swoje konto i upewnieniu się, że mamy tam obrazek, który chcemy udostępnić klikamy na przycisk "Udostępnij".
 
-<img class="ctr" src="https://dl.dropboxusercontent.com/s/8je67noj5bhixhw/dropbox_img_3.jpg" alt="Udostępnianie pliku z klienta webowego Dropboxa" >
+<img src="https://dl.dropboxusercontent.com/s/8je67noj5bhixhw/dropbox_img_3.jpg" alt="Udostępnianie pliku z klienta webowego Dropboxa" >
 
 Potwierdzeniem udostępnienia pliku jest okienko, w którym możemy poinformować innych o tym, że udostępniliśmy plik, a także skopiować adres.
 
-<img class="ctr" src="https://dl.dropboxusercontent.com/s/gfjf0razfs4d9ew/dropbox_img_4.jpg" alt="Potwierdzenie udostępnienia pliku z linkiem do skopiowania">
+<img src="https://dl.dropboxusercontent.com/s/gfjf0razfs4d9ew/dropbox_img_4.jpg" alt="Potwierdzenie udostępnienia pliku z linkiem do skopiowania">
 
 <h4>2. Z aplikacji desktopowej</h4> 
 
-Jeśli nie macie jej na komputerze, to można ją pobrać [tutaj](https://www.dropbox.com/downloading)).
+Jeśli nie macie jej na komputerze, to można ją pobrać [tutaj](https://www.dropbox.com/downloading).
 Po przerzuceniu plików do folderu dropboxa na komputerze, klikamy prawym przyciskiem w nieszczególnie intuicyjną opcję "kopiuj łącze do Dropbox".
 
-<img class="ctr" src="https://dl.dropboxusercontent.com/s/ms8rjz60u4nri5x/dropbox_img_1.jpg" alt="Udostępnianie pliku z klienta desktopowego Dropboxa" >
+<img src="https://dl.dropboxusercontent.com/s/ms8rjz60u4nri5x/dropbox_img_1.jpg" alt="Udostępnianie pliku z klienta desktopowego Dropboxa" >
 
 Jeśli wszystko poszło dobrze, otrzymujemy wiadomość: 
 
-<img class="ctr" src="https://dl.dropboxusercontent.com/s/kj9jzeq3jgpz97e/dropbox_img_2.jpg" alt="Potwierdzenie udostępnienia pliku" >
+<img src="https://dl.dropboxusercontent.com/s/kj9jzeq3jgpz97e/dropbox_img_2.jpg" alt="Potwierdzenie udostępnienia pliku" >
 
 Zgodnie z informacją link macie skopiowany i możecie go wkleić w dowolne miejsce.
 
@@ -51,15 +51,19 @@ Zgodnie z informacją link macie skopiowany i możecie go wkleić w dowolne miej
 Niezależnie w jaki sposób wykonacie krok pierwszy, link do udostępnionego obrazka będzie wyglądał w następujący sposób:
 
 {% highlight %}
-www.dropbox.com/u/\<indeks\>/\<nazwapliku\>?dl=0
+{% raw %}
+www.dropbox.com/u/<indeks>/<nazwapliku>?dl=0
+{% endraw %}
 {% endhighlight %}
 
-Nie jest to jednak link do pliku, a jedynie do jego podglądu. Żeby uzyskać z tego ścieżkę do obrazka musimy podmienić www.dropbox.com na {% highlight %}dl.dropboxusercontent.com{% endhighlight %} oraz usunąć {% highlight %}'?dl=0'{% endhighlight %}
+Nie jest to jednak link do pliku, a jedynie do jego podglądu. Żeby uzyskać z tego ścieżkę do obrazka musimy podmienić www.dropbox.com na {% highlight %}dl.dropboxusercontent.com{% endhighlight %} oraz usunąć {% highlight %}?dl=0{% endhighlight %}
 
 Otrzymamy zatem link do rzeczywistego pliku, który będzie wyglądał następująco:
 
 {% highlight %}
-www.dropboxusercontent.com/u/\<indeks\>/\<nazwapliku\>
+{% raw %}
+www.dropboxusercontent.com/u/<indeks>/<nazwapliku>
+{% endraw %}
 {% endhighlight %}
 
 I w takiej formie możemy go już wykorzystać na naszej stronie, blogu lub forum.

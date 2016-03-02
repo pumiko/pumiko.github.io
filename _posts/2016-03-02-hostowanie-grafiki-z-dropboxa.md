@@ -28,22 +28,22 @@ Inni też muszą mieć do niego dostęp. Pliki można udostępnić na [kilka spo
 
 Po zalogowaniu na swoje konto i upewnieniu się, że mamy tam obrazek, który chcemy udostępnić klikamy na przycisk "Udostępnij".
 
-<img src="https://dl.dropboxusercontent.com/s/8je67noj5bhixhw/dropbox_img_3.jpg" alt="Udostępnianie pliku z klienta webowego Dropboxa" style="max-width: 100%;height: auto; position: center;">
+<img class="center" src="https://dl.dropboxusercontent.com/s/8je67noj5bhixhw/dropbox_img_3.jpg" alt="Udostępnianie pliku z klienta webowego Dropboxa" >
 
 Potwierdzeniem udostępnienia pliku jest okienko, w którym możemy poinformować innych o tym, że udostępniliśmy plik, a także skopiować adres.
 
-<img src="https://dl.dropboxusercontent.com/s/gfjf0razfs4d9ew/dropbox_img_4.jpg" alt="Potwierdzenie udostępnienia pliku z linkiem do skopiowania" style="max-width: 100%;height: auto; position: center;">
+<img class="center" src="https://dl.dropboxusercontent.com/s/gfjf0razfs4d9ew/dropbox_img_4.jpg" alt="Potwierdzenie udostępnienia pliku z linkiem do skopiowania" >
 
 <h4>2. Z aplikacji desktopowej</h4> 
 
 Jeśli nie macie jej na komputerze, to można ją pobrać [tutaj](https://www.dropbox.com/downloading)).
 Po przerzuceniu plików do folderu dropboxa na komputerze, klikamy prawym przyciskiem w nieszczególnie intuicyjną opcję "kopiuj łącze do Dropbox".
 
-<img src="https://dl.dropboxusercontent.com/s/ms8rjz60u4nri5x/dropbox_img_1.jpg" alt="Udostępnianie pliku z klienta desktopowego Dropboxa" style="max-width: 100%;height: auto; position: center;">
+<img class="center" src="https://dl.dropboxusercontent.com/s/ms8rjz60u4nri5x/dropbox_img_1.jpg" alt="Udostępnianie pliku z klienta desktopowego Dropboxa" >
 
 Jeśli wszystko poszło dobrze, otrzymujemy wiadomość: 
 
-<img src="https://dl.dropboxusercontent.com/s/kj9jzeq3jgpz97e/dropbox_img_2.jpg" alt="Potwierdzenie udostępnienia pliku" style="max-width: 100%;height: auto; position: center;">
+<img class="center" src="https://dl.dropboxusercontent.com/s/kj9jzeq3jgpz97e/dropbox_img_2.jpg" alt="Potwierdzenie udostępnienia pliku" >
 
 zgodnie z informacją link macie skopiowany i możecie go wkleić w dowolne miejsce.
 

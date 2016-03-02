@@ -49,13 +49,17 @@ zgodnie z informacją link macie skopiowany i możecie go wkleić w dowolne miej
 <h3>Krok 2. Zmień ścieżkę dostępu!</h3>
 Niezależnie w jaki sposób wykonacie krok pierwszy, link do udostępnionego obrazka będzie wyglądał w następujący sposób:
 
+{% highlight %}
 www.dropbox.com/u/\<indeks\>/\<nazwapliku\>?dl=0
+{% endhighlight %}
 
-Nie jest to jednak link do pliku, a jedynie do jego podglądu. Żeby uzyskać z tego ścieżkę do obrazka musimy podmienić www.dropbox.com na 'dl.dropboxusercontent.com' oraz usunąć '?dl=0'
+Nie jest to jednak link do pliku, a jedynie do jego podglądu. Żeby uzyskać z tego ścieżkę do obrazka musimy podmienić www.dropbox.com na {% highlight %}dl.dropboxusercontent.com{% endhighlight %} oraz usunąć {% highlight %}'?dl=0'{% endhighlight %}
 
 Otrzymamy zatem link do rzeczywistego pliku, który będzie wyglądał następująco:
 
+{% highlight %}
 www.dropboxusercontent.com/u/\<indeks\>/\<nazwapliku\>
+{% endhighlight %}
 
 I w takiej formie możemy go już wykorzystać na naszej stronie, blogu lub forum.
 

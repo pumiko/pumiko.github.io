@@ -59,7 +59,7 @@ Nie jest to jednak link do pliku, a jedynie do jego podglądu. Żeby uzyskać z 
 Otrzymamy zatem link do rzeczywistego pliku, który będzie wyglądał następująco:
 
 {% highlight text %}
-www.dropboxusercontent.com/u/<indeks>/<nazwapliku>
+dl.dropboxusercontent.com/u/<indeks>/<nazwapliku>
 {% endhighlight %}
 
 I w takiej formie możemy go już wykorzystać na naszej stronie, blogu lub forum.

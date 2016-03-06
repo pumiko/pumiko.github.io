@@ -30,7 +30,7 @@ Tak jak pisałam w [poprzednim poście](http://pumiko.pl/2016/03/02/hostowanie-g
 
 <h3>Wireframe</h3>
 
-Dowiedziałam się, że coś co do tej pory uważałam za "makietę" (takie słowo stosuje się w przypadku projektowania np. map i atlasów) w przypadku storn internetowych określane jest raczej jako wireframe. Wydaje mi się, że zaprojektowanie strony, tak, żeby później nie zmieniać co chwilę położenia elementów i ich wielkości jest na tyle ważne, że koniecznie trzeba to dobrze zaprojektować. W notesie mam kilka rysunków (przykład poniżej) przygotowanych do wyobrażenia sobie niektórych elementów, jednak nigdzie jeszcze nie stworzyłam porządnego planu.
+Dowiedziałam się, że coś co do tej pory uważałam za "makietę" (takie słowo stosuje się w projektowaniu map i atlasów) w przypadku storn internetowych określane jest raczej jako wireframe. Wydaje mi się, że zaprojektowanie strony, tak, żeby później nie zmieniać co chwilę położenia elementów i ich wielkości jest na tyle ważne, że koniecznie trzeba to dobrze zaprojektować. W notesie mam kilka rysunków (przykład poniżej) przygotowanych do wyobrażenia sobie niektórych elementów, jednak nigdzie jeszcze nie stworzyłam porządnego planu.
 
 <img class="ctr" src="https://dl.dropboxusercontent.com/s/71hh06zyweaoljx/wireframe.jpg" alt="Wireframe strony głównej Słoiczków">
 

@@ -1,6 +1,6 @@
 ---
 published: true
-title: Przemyślenia na temat logo, landing page i wireframe'ów
+title: Przemyślenia na temat logo, landing page i wireframe&apos;ów
 layout: post
 summary: "Luźny opis doświadczeń związanych z tworzeniem logo i poszukiwaniem najlepszego rozwiązania do przygotowania poprawnej makiety strony internetowej. Post raczej nietechniczny i emocjonalny."
 tags: 

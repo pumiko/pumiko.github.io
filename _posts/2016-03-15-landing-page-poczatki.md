@@ -36,7 +36,7 @@ Wracając do tematu strony. Do tej pory wprowadziłam kilka krótkich poprawek. 
 <h3>Słoiczki.pl</h3>
 
 
-Najlepsze zostawiłam na koniec... Od pewnego czasu wiemy, że moja wymarzona domena jest zajęta, jednak [Bartek](http://donpiekarz.pl/), jak zawsze wpadł na genialny pomysł, a dokładnie mówiąc, przypomniał sobie, że od pewnego czasu można rejestrować domeny z polskimi znakami. I dostałam w prezencie [Słoiczkową domenę](słoiczki.pl) :) Bartkowi się nie do końca podoba i próbuje wymyślić coś innego, ale ja jestem  taką nazwą zachwycona :)
+Najlepsze zostawiłam na koniec. Od pewnego czasu wiemy, że moja wymarzona domena jest zajęta, jednak [Bartek](http://donpiekarz.pl/), jak zawsze wpadł na genialny pomysł, a dokładnie mówiąc, przypomniał sobie, że od pewnego czasu można rejestrować domeny z polskimi znakami. I dostałam w prezencie [Słoiczkową domenę](http://słoiczki.pl/) :) Bartkowi się nie do końca podoba i próbuje wymyślić coś innego, ale ja jestem  taką nazwą zachwycona :)
 
-Jeśli chcecie śledzić postępy, to zapraszam na [Słoiczki.pl](słoiczki.pl) lub do [repozytorium na githubie](https://github.com/pumiko/SloiczkiLanding).
+Jeśli chcecie śledzić postępy, to zapraszam na [Słoiczki.pl](http://słoiczki.pl/) lub do [repozytorium na githubie](https://github.com/pumiko/SloiczkiLanding).
 

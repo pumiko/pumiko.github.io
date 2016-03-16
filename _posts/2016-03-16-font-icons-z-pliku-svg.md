@@ -71,28 +71,34 @@ A po zmianie...
 Kolejna ważna rzecz. Jeśli dodajemy nowy zestaw czcionek to trzeba też head naszej strony uzupełnić o nową ścieżkę, czyli po prostu dodać kolejny link.
 
 {% highlight html %}
+{% raw %}
  <!-- Custom Fonts -->
 	...
 	<link rel="stylesheet" href="css/icomoon.css" type="text/css">
+{% endraw %}
 {% endhighlight %}
 
 Po dokonaniu tych drobnych zmian można już używać czcionki na stronie. Poszłam na łatwiznę i wykorzystałam istniejący już div. Tzn. zamieniłam telefon, który był w oryginalnym szablonie na kota. Zmieniłam też podpis, podlinkowując swojego bloga.
 W oryginale div wyglądał tak:
 
 {% highlight html %}
+{% raw %}
   <div class="col-lg-4 col-lg-offset-2 text-center">
     <i class="fa fa-phone fa-3x wow bounceIn"></i>
     <p>123-456-6789</p>
   </div>
+{% endraw %}
 {% endhighlight%}
 
 Po zmianie ma następującą postać: 
 
 {% highlight html %}
+{% raw %}
   <div class="col-lg-4 col-lg-offset-2 text-center">
     <i class="icon-pumiko fa-4x wow bounceIn"></i>
     <p><a href="http://pumiko.pl">pumiko.pl</a></p>
   </div>
+{% endraw %}
 {% endhighlight %}
 
 W praktyce podmieniłam tylko wcześniejszą ikonkę i zmieniłam styl __fa-3x__ na __fa-4x__. Zmiana ta miała na celu powiększenie kota, bo okazał się zbyt drobny w stosunku do pozostałych ikonek.

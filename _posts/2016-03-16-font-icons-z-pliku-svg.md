@@ -1,14 +1,15 @@
 ---
 published: true
-title: Generowanie własnych czcionek-ikon w oparciu o pliki SVG
+title: "Generowanie własnych czcionek-ikon w oparciu o pliki SVG"
 layout: post
-summary: "Historia o tym dlaczego zamiast programować zajęłam się tworzeniem icon fonts. Na jakie narzędzia warto zwrócić uwagę, krótki tutorial i zestaw artykułów, z którymi warto się zapoznać. Moja pierwsza literka i użycie czcionki na stronie Słoiczków. W tekście znajdziecie nawet kawałek kodu :)" 
+summary: "Historia o tym dlaczego zamiast programować zajęłam się tworzeniem icon fonts. Na jakie narzędzia warto zwrócić uwagę, krótki tutorial i zestaw artykułów, z którymi warto się zapoznać. Moja pierwsza literka i użycie czcionki na stronie Słoiczków. W tekście znajdziecie nawet kawałek kodu."
 tags: 
   - dajsiepoznac
   - bootstrap
   - fonticon
   - sloiczki
 ---
+
 
 Dziwnie toczą się moje losy, odkąd przystąpiłam do konkursu #dajsiepoznac. Myślałam, że nauczę się programować, że django, python, backend, tym będę się zajmować, to będzie mnie pochłaniać, a tymczasem rzeczywistość pokazuje, że więcej czasu spędzam z kartką i ołówkiem, w programach graficznych i próbując dobrać obrazki i kolory do stron.
 
@@ -112,5 +113,4 @@ Dzięki wprowadzaniu zmian i pracy z HTMLem i CSSami uczę się używać gita po
 Teraz chciałabym jak najszybciej przygotować pozostałe ikonki i dorzucić je na stronę, zmienić teksty na stronie, a w następnej kolejności zająć się formularzem :) 
 
 
-PS. W międzyczasie sprawdziłam jeszcze jeden generator czcionek - [Fontello](http://fontello.com/). Niestety też nie radzi sobie z kotem :( 
-
+PS. W międzyczasie sprawdziłam jeszcze jeden generator czcionek - [Fontello](http://fontello.com/). Niestety też nie radzi sobie z kotem :(

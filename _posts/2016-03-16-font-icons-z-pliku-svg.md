@@ -2,11 +2,11 @@
 published: true
 title: Generowanie własnych czcionek-ikon w oparciu o pliki SVG
 layout: post
-summary: "Historia o tym dlaczego zamiast programować zajęłam się tworzeniem icon fonts. Na jakie narzędzia warto zwrócić uwagę, krótki tutorial i zestaw artykułów, z którymi warto się zapoznać. Moja pierwsza &quot;literka&quot; i użycie czcionki na stronie Słoiczków. W tekście znajdziecie nawet kawałek kodu :)" 
+summary: "Historia o tym dlaczego zamiast programować zajęłam się tworzeniem icon fonts. Na jakie narzędzia warto zwrócić uwagę, krótki tutorial i zestaw artykułów, z którymi warto się zapoznać. Moja pierwsza literka i użycie czcionki na stronie Słoiczków. W tekście znajdziecie nawet kawałek kodu :)" 
 tags: 
   - dajsiepoznac
   - bootstrap
-  - icon-font
+  - fonticon
   - sloiczki
 ---
 

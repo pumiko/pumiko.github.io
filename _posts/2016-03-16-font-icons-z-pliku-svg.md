@@ -113,3 +113,4 @@ Teraz chciałabym jak najszybciej przygotować pozostałe ikonki i dorzucić je 
 
 
 PS. W międzyczasie sprawdziłam jeszcze jeden generator czcionek - [Fontello](http://fontello.com/). Niestety też nie radzi sobie z kotem :( 
+

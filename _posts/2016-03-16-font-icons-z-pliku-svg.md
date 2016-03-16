@@ -36,7 +36,7 @@ Z zestawu plików, który otrzymujemy do zaimplementowania naszej czcionki na st
 
 Pliki te dodałam do [repozytorium landing page'a](https://github.com/pumiko/SloiczkiLanding). Czcionki przerzuciłam do istniejącego wcześniej folderu __font__, a plik __style.css__ zmieniłam na __icomoon.css__ i ulokowałam go w folderze __css__. Na początek, przez to, że pliki wrzuciłam tak a nie inaczej należy poprawić ścieżki dostępu do czcionek w pliku icomoon.css. W wersji oryginalnej wygląda to tak:
 
-{% highlight html %}
+{% highlight css %}
 {% raw %}
 @font-face {
   font-family: 'icomoon';
@@ -53,7 +53,7 @@ Pliki te dodałam do [repozytorium landing page'a](https://github.com/pumiko/Slo
 
 A po zmianie...
 
-{% highlight html %}
+{% highlight css %}
 {% raw %}
 @font-face {
   font-family: 'icomoon';

@@ -69,10 +69,12 @@ Teraz trochę żałuję, że nie postawiłam przed sobą większego wyzwania, ja
 Przemyślenia dotyczące nauki i rzucania się na głęboką wodę świetnie obrazuje metodyka MVP. Na kilku blogach z #dajsiepoznac widziałam już obrazki dotyczące tej metodyki. Zazwyczaj było to coś w stylu:
 
 <img class="ctr" src="https://dl.dropbox.com/s/tla7kz3earzc8dk/MVP_1.png" alt="Metodyka minimum viable product - wersja 1">
+
 Obrazek zaczerpnięty z [tej](http://www.slideshare.net/5throck/biz-plan-55809179) prezentacji.
 
 W moim odczuciu zdecydowanie lepsza jest jednak ta grafika:
 <img class="ctr" src="https://dl.dropbox.com/s/h6m2my1oi5dguhe/MVP_2.jpg" alt="Metodyka minimum viable product - wersja 2">
+
 Obrazek pochodzi z [tego](https://boagworld.com/digital-strategy/how-to-build-a-digital-service-when-under-intense-scrutiny/) artykułu. 
 
-Podoba mi się bardziej, bo jest zgodna z moimi odczuciami. Nie jestem teraz zadowolona z tego, w jaki sposób podeszłam do nauki, podobnie nie będę zadowolona z pierwszej wersji Słoiczków. Wątpię też w to czy uda mi się dojść do stadium "samochodu", zarówno w zdobywaniu wiedzy (ten proces nigdy się na szczęście nie kończy ;) ) jak i w aplikacji. Możliwe, że sporo funkcjonalności, które teraz wydają mi się fajne nigdy nie ujrzą światła dziennego, bo nikt ich zwyczajnie nie będzie potrzebował, ale to już pozostawiam do późniejszych przemyśleń.
+Podoba mi się bardziej, bo jest zgodny z moimi odczuciami. Nie jestem teraz zadowolona z tego, w jaki sposób podeszłam do nauki, podobnie nie będę zadowolona z pierwszej wersji Słoiczków. Wątpię też w to czy uda mi się dojść do stadium "samochodu", zarówno w zdobywaniu wiedzy (ten proces nigdy się na szczęście nie kończy ;) ) jak i w aplikacji. Możliwe, że sporo funkcjonalności, które teraz wydają mi się fajne nigdy nie ujrzą światła dziennego, bo nikt ich zwyczajnie nie będzie potrzebował, ale to już pozostawiam do późniejszych przemyśleń.
